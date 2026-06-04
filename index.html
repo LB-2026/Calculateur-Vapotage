@@ -236,6 +236,55 @@
         color: #777;
         font-size: 20px;
       }
+      /* Version mobile */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .layout .card {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .input-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .absorption-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fixed-box {
+    max-width: 100%;
+  }
+
+  body {
+    padding: 15px;
+  }
+
+  .header {
+    padding: 25px;
+  }
+
+  .header-title {
+    font-size: 24px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .description-step,
+  .card-title,
+  label,
+  input,
+  .result,
+  .small-text {
+    font-size: 18px;
+  }
     </style>
   </head>
 
